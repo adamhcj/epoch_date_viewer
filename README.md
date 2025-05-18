@@ -8,3 +8,8 @@ e.g copying epoch timestamp from Postman / Snowflake / MySQL / etc <br><br>
 2. Human-readable date is displayed as mouse tooltips.
 # 💻 Preview on Windows:
 https://github.com/user-attachments/assets/f0d64c1a-bc36-49bc-b864-5c45b04995d0
+
+# ⚙️ Setting up
+1. Have a relatively recent python version (preferably >3.10, I use 3.12)
+2. `pip install -r requirements.txt`
+3. `python app.py`
