@@ -6,6 +6,11 @@ e.g copying epoch timestamp from Postman / Snowflake / MySQL / etc <br><br>
 
 1. When an epoch timestamp is copied,
 2. Human-readable date is displayed as mouse tooltips.
+
+
+![image](https://github.com/user-attachments/assets/1eea3b92-d7e2-429f-83c1-3b868a561e34)
+
+   
 # 💻 Preview on Windows:
 (please turn on the sound to hear quick explanation)
 
