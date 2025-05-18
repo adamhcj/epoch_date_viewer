@@ -14,11 +14,13 @@ def show_tooltip(root, text, x, y):
     print(f"Showing tooltip: {text} at ({x}, {y})")
     global last_label
 
-    tooltip = tk.Toplevel(root)
     if last_label is not None:
         last_label.master.destroy()  # destroy the previous tooltip
+        last_label = None
         # last_label.destroy()
-
+    if text == "not a valid date": # if not a valid date, just exit
+        return
+    tooltip = tk.Toplevel(root)
     # print(tooltip)
 
     tooltip.overrideredirect(True)  # removes window borders
@@ -50,7 +52,7 @@ def show_tooltip(root, text, x, y):
     follow_mouse()
     
     if text != "not a valid date":
-        tooltip.after(4000, fade_out)  # start fading out
+        tooltip.after(20000, fade_out)  # start fading out
     else:
         tooltip.after(1000, fade_out)
     
