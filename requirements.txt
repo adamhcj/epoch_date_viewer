@@ -1,0 +1,4 @@
+pyperclip==1.9.0
+pyautogui==0.9.54
+humanize==4.12.3
+# a later python version is preferred (preferably >3.10, e.g 3.12, 3.13)
